@@ -830,5 +830,305 @@
       "autenticação",
       "api"
     ]
+  },
+  {
+    "nome": "Astro",
+    "descricao": "Framework moderno de frontend focado em velocidade, enviando HTML mínimo e permitindo o uso de múltiplos frameworks (como React e Vue) na mesma aplicação ('ilha de arquitetura').",
+    "data_criacao": "2021",
+    "link_oficial": "https://astro.build/",
+    "tags": [
+      "frontend",
+      "site builder",
+      "web performance",
+      "framework"
+    ]
+  },
+  {
+    "nome": "Zig",
+    "descricao": "Linguagem de programação de propósito geral, focada em simplicidade, robustez e performance, sendo uma alternativa de baixo nível ao C.",
+    "data_criacao": "2016",
+    "link_oficial": "https://ziglang.org/",
+    "tags": [
+      "linguagem de programação",
+      "sistemas",
+      "compilada",
+      "baixo nível"
+    ]
+  },
+  {
+    "nome": "Apache Pulsar",
+    "descricao": "Plataforma de mensagens distribuída e em tempo real, utilizada para streaming de dados, substituto para sistemas como Kafka.",
+    "data_criacao": "2015",
+    "link_oficial": "https://pulsar.apache.org/",
+    "tags": [
+      "streaming de dados",
+      "mensageria",
+      "apache",
+      "cloud native"
+    ]
+  },
+  {
+    "nome": "Deno",
+    "descricao": "Runtime seguro para JavaScript e TypeScript construído em Rust, focado em segurança por padrão, módulos ES e suporte nativo a TypeScript.",
+    "data_criacao": "2018",
+    "link_oficial": "https://deno.com/",
+    "tags": [
+      "runtime",
+      "javascript",
+      "backend",
+      "web development"
+    ]
+  },
+  {
+    "nome": "Vite",
+    "descricao": "Ferramenta de construção (build tool) e servidor de desenvolvimento local, projetada para ser extremamente rápida e modular, usando módulos ES nativos.",
+    "data_criacao": "2020",
+    "link_oficial": "https://vitejs.dev/",
+    "tags": [
+      "build tool",
+      "bundler",
+      "ferramenta",
+      "frontend"
+    ]
+  },
+  {
+    "nome": "Cloudflare Workers",
+    "descricao": "Plataforma de computação serverless que permite executar código em JavaScript, Rust, ou Go na rede global da Cloudflare, próxima ao usuário final (Edge Computing).",
+    "data_criacao": "2017",
+    "link_oficial": "https://workers.cloudflare.com/",
+    "tags": [
+      "serverless",
+      "edge computing",
+      "cloud",
+      "computação distribuída"
+    ]
+  },
+  {
+    "nome": "Nix",
+    "descricao": "Gerenciador de pacotes puramente funcional e sistema de configuração que garante compilações reproduzíveis e ambientes isolados.",
+    "data_criacao": "2003",
+    "link_oficial": "https://nixos.org/",
+    "tags": [
+      "gerenciamento de pacotes",
+      "devops",
+      "configuração de sistemas",
+      "funcional"
+    ]
+  },
+  {
+    "nome": "Nomad",
+    "descricao": "Orquestrador de containers simples e flexível da HashiCorp, capaz de gerenciar cargas de trabalho virtualizadas, containerizadas e standalone.",
+    "data_criacao": "2015",
+    "link_oficial": "https://www.hashicorp.com/products/nomad",
+    "tags": [
+      "orquestração",
+      "devops",
+      "hashicorp",
+      "scheduler"
+    ]
+  },
+  {
+    "nome": "Memcached",
+    "descricao": "Sistema de cache de objetos distribuído de alto desempenho, utilizado para acelerar aplicações web dinâmicas armazenando dados na memória RAM.",
+    "data_criacao": "2003",
+    "link_oficial": "https://memcached.org/",
+    "tags": [
+      "caching",
+      "memória distribuída",
+      "banco de dados chave-valor",
+      "performance"
+    ]
+  },
+  {
+    "nome": "RethinkDB",
+    "descricao": "Banco de dados de documentos de código aberto que foca em push de dados em tempo real (real-time push) para aplicações web.",
+    "data_criacao": "2010",
+    "link_oficial": "https://rethinkdb.com/",
+    "tags": [
+      "banco de dados",
+      "NoSQL",
+      "documentos",
+      "tempo real"
+    ]
+  },
+  {
+    "nome": "Figma",
+    "descricao": "Ferramenta de design de interface e prototipagem baseada em nuvem, amplamente utilizada para design UX/UI colaborativo.",
+    "data_criacao": "2016",
+    "link_oficial": "https://www.figma.com/",
+    "tags": [
+      "design",
+      "prototipagem",
+      "ferramenta",
+      "UI/UX"
+    ]
+  },
+  {
+    "nome": "Tailwind CSS",
+    "descricao": "Framework CSS utilitário que permite construir designs complexos aplicando classes diretamente no markup HTML.",
+    "data_criacao": "2017",
+    "link_oficial": "https://tailwindcss.com/",
+    "tags": [
+      "frontend",
+      "CSS",
+      "framework",
+      "design system"
+    ]
+  },
+  {
+    "nome": "Unreal Engine",
+    "descricao": "Motor de jogo (game engine) 3D de alto desempenho desenvolvido pela Epic Games, amplamente usado em jogos, filmes e simulações.",
+    "data_criacao": "1998",
+    "link_oficial": "https://www.unrealengine.com/",
+    "tags": [
+      "game engine",
+      "desenvolvimento de jogos",
+      "gráficos 3D",
+      "simulação"
+    ]
+  },
+  {
+    "nome": "Haxe",
+    "descricao": "Linguagem de programação de alto nível e código aberto que pode compilar código fonte para várias plataformas alvo (cross-platform), incluindo JavaScript, C++, C#, Python e Flash.",
+    "data_criacao": "2001",
+    "link_oficial": "https://haxe.org/",
+    "tags": [
+      "linguagem de programação",
+      "cross-platform",
+      "compilador",
+      "multi-target"
+    ]
+  },
+  {
+    "nome": "K3s",
+    "descricao": "Distribuição leve do Kubernetes da Rancher, projetada para IoT e Edge Computing, sendo otimizada para ambientes com recursos limitados.",
+    "data_criacao": "2019",
+    "link_oficial": "https://k3s.io/",
+    "tags": [
+      "orquestração",
+      "devops",
+      "edge computing",
+      "cloud native"
+    ]
+  },
+  {
+    "nome": "Flux",
+    "descricao": "Conjunto de ferramentas de entrega contínua (CD) baseado em GitOps, que garante que o estado do cluster Kubernetes corresponda ao repositório Git.",
+    "data_criacao": "2018",
+    "link_oficial": "https://fluxcd.io/",
+    "tags": [
+      "gitops",
+      "entrega contínua",
+      "devops",
+      "kubernetes"
+    ]
+  },
+  {
+    "nome": "Chef",
+    "descricao": "Ferramenta de automação e gerenciamento de configuração que usa 'cookbooks' e 'recipes' para definir o estado desejado da infraestrutura.",
+    "data_criacao": "2009",
+    "link_oficial": "https://www.chef.io/",
+    "tags": [
+      "automação",
+      "gerenciamento de configuração",
+      "devops",
+      "infraestrutura"
+    ]
+  },
+  {
+    "nome": "Chronos",
+    "descricao": "Sistema de agendamento distribuído, usado para executar trabalhos agendados (como cron jobs) em um cluster, frequentemente em ambientes Mesos.",
+    "data_criacao": "2014",
+    "link_oficial": "https://mesosphere.github.io/chronos/",
+    "tags": [
+      "agendamento de tarefas",
+      "cluster",
+      "scheduler",
+      "big data"
+    ]
+  },
+  {
+    "nome": "MLflow",
+    "descricao": "Plataforma de código aberto para gerenciar todo o ciclo de vida do aprendizado de máquina (MLOps), incluindo experimentos, reprodutibilidade e implantação.",
+    "data_criacao": "2018",
+    "link_oficial": "https://mlflow.org/",
+    "tags": [
+      "machine learning",
+      "mlops",
+      "data science",
+      "plataforma"
+    ]
+  },
+  {
+    "nome": "Supabase",
+    "descricao": "Backend como Serviço (BaaS) de código aberto que fornece um banco de dados PostgreSQL, autenticação, APIs em tempo real e armazenamento.",
+    "data_criacao": "2020",
+    "link_oficial": "https://supabase.com/",
+    "tags": [
+      "backend as a service",
+      "banco de dados",
+      "desenvolvimento web",
+      "open source"
+    ]
+  },
+  {
+    "nome": "Nginx",
+    "descricao": "Servidor web, proxy reverso, proxy de e-mail e balanceador de carga de alto desempenho e código aberto.",
+    "data_criacao": "2004",
+    "link_oficial": "https://www.nginx.com/",
+    "tags": [
+      "servidor web",
+      "proxy reverso",
+      "balanceamento de carga",
+      "infraestrutura"
+    ]
+  },
+  {
+    "nome": "Bicep",
+    "descricao": "Linguagem de domínio específico (DSL) declarativa e transparente para implantar recursos do Azure, agindo como uma abstração sobre os modelos ARM.",
+    "data_criacao": "2020",
+    "link_oficial": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep",
+    "tags": [
+      "infraestrutura como código",
+      "azure",
+      "devops",
+      "microsoft"
+    ]
+  },
+  {
+    "nome": "Solidity",
+    "descricao": "Linguagem de programação orientada a contratos para escrever contratos inteligentes (smart contracts), primariamente executados na Ethereum Virtual Machine (EVM).",
+    "data_criacao": "2014",
+    "link_oficial": "https://soliditylang.org/",
+    "tags": [
+      "blockchain",
+      "smart contracts",
+      "linguagem de programação",
+      "ethereum"
+    ]
+  },
+  {
+    "nome": "R (Linguagem)",
+    "descricao": "Linguagem e ambiente de código aberto amplamente utilizado para computação estatística, análise de dados e gráficos.",
+    "data_criacao": "1993",
+    "link_oficial": "https://www.r-project.org/",
+    "tags": [
+      "linguagem de programação",
+      "ciência de dados",
+      "estatística",
+      "análise de dados"
+    ]
+  },
+  {
+    "nome": "Lit",
+    "descricao": "Biblioteca leve e rápida para construir Web Components (componentes web nativos), focada em performance e encapsulamento.",
+    "data_criacao": "2021",
+    "link_oficial": "https://lit.dev/",
+    "tags": [
+      "web components",
+      "frontend",
+      "biblioteca",
+      "performance"
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 let cardContainer = document.querySelector(".card-container");
-let campoBusca = document.querySelector("header input");
+let campoBusca = document.getElementById("campo-busca");
 let dados = [];
 
 async function iniciarBusca() {
@@ -14,11 +14,21 @@ async function iniciarBusca() {
         }
     }
 
-    const termoBusca = campoBusca.value.toLowerCase();
-    const dadosFiltrados = dados.filter(dado => 
-        dado.nome.toLowerCase().includes(termoBusca) || 
-        dado.descricao.toLowerCase().includes(termoBusca)
-    );
+    const termoBusca = campoBusca.value.trim().toLowerCase();
+    let dadosFiltrados;
+
+    // Se o campo de busca estiver vazio, mostra todos os dados.
+    if (termoBusca === "") {
+        dadosFiltrados = dados;
+    } else {
+        // Caso contrário, filtra os dados conforme o termo digitado.
+        dadosFiltrados = dados.filter(dado => 
+            dado.nome.toLowerCase().includes(termoBusca) || 
+            dado.descricao.toLowerCase().includes(termoBusca)
+        );
+    }
+    // Ordena os resultados em ordem alfabética pelo nome
+    dadosFiltrados.sort((a, b) => a.nome.localeCompare(b.nome));
 
     renderizarCards(dadosFiltrados);
 }
@@ -32,8 +42,17 @@ function renderizarCards(dados) {
         <h2>${dado.nome}</h2>
         <p>${dado.data_criacao}</p>
         <p>${dado.descricao}</p>
-        <a href="${dado.link}" target="_blank">Saiba mais</a>
+        <p class="tags">#${dado.tags.join(", #")}</p>
+        <a href="${dado.link_oficial}" target="_blank">Saiba mais</a>
+
         `
         cardContainer.appendChild(article);
     }
 }
+
+// Adiciona um "escutador" para o evento de pressionar uma tecla no campo de busca
+campoBusca.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      iniciarBusca();
+    }
+});
